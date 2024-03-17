@@ -3,7 +3,6 @@ from flask import Flask, render_template, Response, request, jsonify, redirect, 
 from aiortc import RTCPeerConnection, RTCSessionDescription
 import cv2 as cv
 
-
 from deepface import DeepFace
 import uuid
 import asyncio
@@ -14,7 +13,7 @@ from pathlib import Path
 from playsound import playsound
 
 #openAI key also after this event judging i am deleting the key
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
  
 
